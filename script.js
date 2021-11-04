@@ -22,3 +22,7 @@ function sendRequest(method, url) {
     }
     xhr.send();
 }
+
+button.addEventListener('click', () => {
+    sendRequest('GET', requestURL);
+});   
